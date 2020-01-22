@@ -1,0 +1,17 @@
+type User {
+  email: String!
+  id: ID! @id
+  name: String!
+}
+
+type Item {
+  createdAt: DateTime! @createdAt
+  description: String!
+  id: ID! @id
+  image: String
+  largeImage: String
+  price: Int!
+  title: String!
+  updatedAt: DateTime! @updatedAt
+  # user: User!
+}
